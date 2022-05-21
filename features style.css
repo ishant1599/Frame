@@ -1,0 +1,24 @@
+.navbar-brand {
+    padding-left: 15%;
+  }
+  
+  .nav-item {
+    padding-right: 20px;
+  }
+  .nav-content{
+    margin-right: 15%;
+  }
+
+body{
+    background-color:#541690;
+}
+.list{
+  color:#fff;
+}
+h1,h3,p{
+  color: #fff;
+}
+.content{
+    text-align:justify;
+    margin:5% 20% 5% 17%;
+}

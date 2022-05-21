@@ -1,0 +1,70 @@
+/* navbar */
+.navbar {
+    background-size: cover;
+    
+}
+  
+  .navbar-brand {
+    padding-left: 15%;
+  }
+  
+  .nav-item {
+    padding-right: 20px;
+  }
+  .nav-content{
+    margin-right: 15%;
+  }
+  body{
+    background-color:#2155CD;
+  }
+  .bg-img{
+    background-image:url("jason-leung-xnFOY9SfcgI-unsplash.jpg");
+    min-height: 380px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  
+  .form{
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:20px;
+    margin: 0 auto;
+    width:33%; 
+    border-radius:30px;
+    border-style:ridge;
+    border-width:3px;
+    background-color:#CCF3EE ;
+    margin-top:50px;
+    margin-bottom:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .input-text{
+    text-align: center;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:10px;
+    border-radius:10px;
+    border-style:ridge;
+    border-width:3px;
+
+    
+  }
+  .logo-img{
+    padding-left:5px;
+    padding-right:5px;
+  }
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width:700px){
+  .side{
+    width:50%;
+  }
+  
+}
+
+  

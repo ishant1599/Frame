@@ -1,0 +1,221 @@
+/* button */
+.btn1 {
+  background-color: #008ae6;
+}
+
+/* background image & content */
+.title{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* All the text content which is written downward on page */
+.container {
+  padding-top: 100px;
+  padding-left:10%;
+  padding-bottom: 50px;
+
+}
+
+/* heading 1 */
+h1 {
+  color: white;
+}
+
+/* headindg 2 */
+h2 {
+  padding-bottom: 3%;
+}
+
+/* heading 3 */
+h3 {
+  color:#008ae6;
+  margin-bottom:8%;
+}
+
+/* icon */
+.icon {
+  color: #008ae6;
+  margin-bottom: 8%;
+}
+
+/* navbar */
+.navbar {
+  background-size: cover;
+  
+  
+}
+
+.navbar-brand {
+  padding-left: 15%;
+}
+
+.nav-item {
+  padding-right: 20px;
+}
+.nav-content{
+  margin-right: 15%;
+}
+/* pricing section */
+.price{
+    background-image:url("valerie-calabro-qOyx1lFLhn8-unsplash.jpg");
+    position: relative;
+    height: auto;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* contact form */
+.form-label {
+  padding: 100px;
+}
+.card-header{
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    padding-bottom:0px;
+}
+.btn:hover{
+    color: #008ae6;
+    background-color: white;
+}
+.color{
+    background-color:#E8F9FD;
+}
+.feature-head-color{
+    color: black;
+}
+
+h5{
+  color: #008ae6;
+}
+a{
+  text-decoration: none;
+}
+.form{
+  padding-left:10%;
+  padding-right:10%;
+  border-style:ridge;
+  border-radius:30px;
+  border-width:3px;
+  margin: 0 auto;
+  width:33%; 
+  
+  
+}
+.input-text1{
+  text-align: center;
+  padding:20px;
+  margin-top:10px;
+  margin-bottom:20px;
+  border-radius:30px;
+}
+.input-text2{
+  text-align: center;
+  padding:20px;
+  margin-top:10px;
+  margin-bottom:20px;
+  border-radius:30px;
+}
+.signup{
+  text-align: center;
+
+}
+.sign{
+  background-color:#187498;
+}
+.signup-btn{
+  border-radius:30px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+ .review{
+  font-family: Arial;
+  margin: 0 auto; /* Center website */
+  max-width: 800px; /* Max width */
+  padding: 20px;
+}
+.review-bgcolor{
+  background-color:#82DBD8;
+}
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  /* Hide the right column on small screens */
+  .right {
+    display: none;
+  }
+}
